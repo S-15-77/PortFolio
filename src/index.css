@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+body.light {
+  background: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background: #121212;
+  color: #ffffff;
+}
+
+.project-card {
+  background-color: var(--card-bg);
+}
+
+body.light .project-card {
+  --card-bg: #f9f9f9;
+}
+
+body.dark .project-card {
+  --card-bg: #1e1e1e;
+}
