@@ -1,0 +1,14 @@
+.theme-toggle {
+  border: 2px solid currentColor;
+  padding: 0.4rem 1rem;
+  border-radius: 30px;
+  font-size: 0.95rem;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+  transition: background-color 0.2s ease;
+}
+
+.theme-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.07);
+}

@@ -8,7 +8,8 @@
   border-radius: 8px;
   padding: 16px;
   margin: 0 auto;
-  background-color: #f9f9f9;
+  color: var(--card-color);
+  background-color: var(--card-bg);
   transition: transform 0.2s;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -31,16 +32,37 @@
 }
 
 .project-card a {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+
   margin-top: 0.5rem;
   text-decoration: none;
-  color: white;
-  background-color: #28292b;
-  padding: 0.4rem 0.75rem;
-  border-radius: 10px;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+
+  padding: 0.4rem 0.9rem;
+  border-radius: 8px;
   font-weight: 600;
   font-size: 0.9rem;
-  width: fit-content;           /* ✨ Prevents full width */
-  align-self: start;            /* Aligns left within grid */
-  transition: background-color 0.2s ease;
+  width: fit-content;
+  align-self: start;
+
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.project-card a:hover {
+  background-color: #0056b3; /* Optional: darker blue on hover */
+  transform: translateX(2px);
+}
+
+.project-card a span.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+
+
+.project-card a:hover .arrow {
+  transform: rotate(-25deg); /* acute turn */
 }
