@@ -1,0 +1,38 @@
+
+[
+  {
+    "title": "Image Captioning with Transformers",
+    "description": "A web app that uses AI to generate captions for videos, making them accessible to everyone.",
+    "tech": "React, Flask, OpenAI API, AWS S3",
+    "link": "https://github.com/S-15-77/SpeakLens",
+    "image": "ImageCaption.png"
+  },
+  {
+    "title": "SpeakLens – Multimodal Meeting Assistant",
+    "description": "Real-time transcription and speaker tracking system with interactive dashboards.",
+    "tech": "React, TypeScript, FastAPI, Docker, Hugging Face",
+    "link": "https://github.com/S-15-77/SpeakLens",
+    "image": "ImageCaption.png"
+  },
+  {
+    "title": "Gym Workout Tracker",
+    "description": "Posture evaluation using OpenCV and MediaPipe, with real-time rep counting.",
+    "tech": "Python, OpenCV, MediaPipe, Random Forest",
+    "link": "https://github.com/S-15-77/GymTracker",
+    "image": "ImageCaption.png"
+  },
+  {
+    "title": "Gym Workout Tracker",
+    "description": "Posture evaluation using OpenCV and MediaPipe, with real-time rep counting.",
+    "tech": "Python, OpenCV, MediaPipe, Random Forest",
+    "link": "https://github.com/S-15-77/GymTracker",
+    "image": "ImageCaption.png"
+  },
+  {
+    "title": "Gym Workout Tracker",
+    "description": "Posture evaluation using OpenCV and MediaPipe, with real-time rep counting.",
+    "tech": "Python, OpenCV, MediaPipe, Random Forest",
+    "link": "https://github.com/S-15-77/GymTracker",
+    "image": "ImageCaption.png"
+  }
+]
