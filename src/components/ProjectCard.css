@@ -22,9 +22,11 @@
 }
 .project-card img {
     display: block;
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
+  width: 100%;          /* Ensures it fills container */
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;     /* Prevents distortion */
+  margin-bottom: 1rem;
 }
 .project-card h2 {
     margin: 0 0 8px;

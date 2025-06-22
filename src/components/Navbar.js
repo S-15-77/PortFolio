@@ -5,16 +5,15 @@ import ThemeToggle from './ThemeToggle';
 
 function Navbar() {
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="navbar-links">
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </div>
-      <ThemeToggle/>
-    </div>
+      <ThemeToggle />
+    </nav>
   );
 }
-
 export default Navbar;

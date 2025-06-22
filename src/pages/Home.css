@@ -1,0 +1,131 @@
+.hero {
+  min-height: 100vh;
+  color: var(--card-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  /* padding: 4rem 2rem; */
+}
+.blobs{
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none; /* Prevents interaction with blobs */
+}
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.6;
+  animation: blobMove 20s infinite ease-in-out;
+}
+
+.blob1 {
+  background: #00e0ff;
+  width: 400px;
+  height: 400px;
+  top: 0;
+  left: 0;
+}
+
+.blob2 {
+  background: #ff4ecd;
+  width: 300px;
+  height: 300px;
+  bottom: -100px;
+  right: -50px;
+  animation-delay: 10s;
+}
+
+@keyframes blobMove {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(50px, 80px);
+  }
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; /* 👈 centers vertically */
+  width: 100%;
+  max-width: 1300px;
+  gap: 3rem;
+}
+
+/* Left Section */
+.left {
+  flex: 1 1 45%;
+}
+
+.left h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.left p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--card-color);
+  max-width: 500px;
+}
+
+/* Right Section */
+.right {
+  flex: 1 1 45%;
+  text-align: right;
+}
+
+.iam {
+  font-size: 4rem; /* Match left header */
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.role {
+  color: #00e0ff;
+  font-weight: 800;
+  font-size: 3rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.city {
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: var(--card-color);
+  margin-top: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left, .right {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .left h1, .iam {
+    font-size: 2.5rem;
+  }
+
+  .role {
+    font-size: 2rem;
+  }
+}

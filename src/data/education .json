@@ -1,0 +1,41 @@
+[
+    {
+    "year_start": 2006,
+    "year_end" : 2011,
+    "degree": "Elementry and Primary Education",
+    "institution": "Madras Christian College Matriculation Higher Secondary School",
+    "location": "Chennai, Tamil Nadu, India"
+     
+    },
+    {
+    "year_start": 2011,
+    "year_end" : 2013,
+    "degree": "Middle School Education",
+    "institution": "Ponvidiyasharam CBSC School",
+    "location": "Chennai, Tamil Nadu, India"
+     
+    },
+    {
+    "year_start": 2013,
+    "year_end" : 2020,
+    "degree": "Higher Secondary Education",
+    "institution": "Madras Christian College Matriculation Higher Secondary School",
+    "location": "Chennai, Tamil Nadu, India"
+     
+    },
+    {
+    "year_start": 2020,
+    "year_end" : 2024,
+    "degree": "Bachelor of Technology in Computer Science and Engineering (Specialization in Artificial Intelligence and Machine Learning)",
+    "institution": "Sri Ramachandra Institute of Higher Education and Research",
+    "location": "Chennai, Tamil Nadu, India"
+     
+},
+{
+    "year_start":2024,
+    "year_end": 2026,
+    "degree" : "Masters of Applied Computer Science",
+    "institution": "Concordia University",
+    "location": "Montreal, Quebec, Canada"
+}
+]
