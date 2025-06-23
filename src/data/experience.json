@@ -1,0 +1,26 @@
+[
+  {
+    "year_start": 2024,
+    "year_end": 2024,
+    "year_start_str": "Feb 2024",
+    "year_end_str": "Jul 2024",
+    "role": "Data Science Intern",
+    "company": "DataKulture"
+  },
+  {
+    "year_start": 2023,
+    "year_end": 2023,
+    "year_start_str": "Jan 2023",
+    "year_end_str": "Mar 2023",
+    "role": "Mobile App Developer Intern",
+    "company": "VLink Education"
+  },
+  {
+    "year_start": 2021,
+    "year_end": 2021,
+    "year_start_str": "Jun 2021",
+    "year_end_str": "Aug 2021",
+    "role": "Frontend Developer Intern",
+    "company": "Spark Foundation"
+  }
+]
