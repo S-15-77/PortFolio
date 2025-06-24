@@ -1,0 +1,38 @@
+.skills-section {
+  padding: 4rem 2rem;
+  background-color: var(--bg);
+  color: var(--text-color);
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.skill-category {
+  margin-bottom: 2rem;
+}
+
+.skill-category h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+}
+
+.skill-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-size: 2rem;
+}
+
+.skill-icons svg {
+  transition: transform 0.3s ease;
+}
+
+.skill-icons svg:hover {
+  transform: scale(1.2);
+  color: var(--button-bg);
+}
