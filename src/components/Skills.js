@@ -7,8 +7,8 @@ import {
   SiPandas, SiNumpy, SiOpencv, SiHuggingface
 } from 'react-icons/si';
 
-import { FaJava,FaBash } from 'react-icons/fa'; // ✅ Replaces SiJava
-import { SiApacheairflow } from 'react-icons/si'; // Best available "Apache" icon substitute
+import { FaJava,FaBash } from 'react-icons/fa';
+import { SiApacheairflow } from 'react-icons/si';
 
 function Skills() {
   return (
@@ -53,7 +53,7 @@ function Skills() {
         <h3>Cloud & Big Data</h3>
         <div className="skill-icons">
           {/* <SiAmazonaws /> */}
-          {/* <SiMicrosoftazure /> */}
+          <SiMicrosoftazure />
           <SiGooglecloud />
           <SiDocker />
           <SiKubernetes />
