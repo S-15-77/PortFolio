@@ -53,7 +53,7 @@ function Skills() {
         <h3>Cloud & Big Data</h3>
         <div className="skill-icons">
           {/* <SiAmazonaws /> */}
-          <SiMicrosoftazure />
+          {/* <SiMicrosoftazure /> */}
           <SiGooglecloud />
           <SiDocker />
           <SiKubernetes />
