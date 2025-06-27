@@ -48,7 +48,6 @@ function Skills() {
         </div>
       </div>
 
-      {/* ☁️ CLOUD & BIG DATA */}
       <div className="skill-category">
         <h3>Cloud & Big Data</h3>
         <div className="skill-icons">
