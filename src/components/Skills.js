@@ -1,14 +1,16 @@
 import './Skills.css';
 import {
-  SiPython, SiJavascript, SiTypescript, SiCplusplus, SiCsharp, SiR, SiMysql,
-  SiBash, SiDart, SiErlang, SiReact, SiNodedotjs, SiFastapi, SiFlutter, SiFirebase,
-  SiSelenium, SiLinux, SiGithubactions, SiAmazonaws, SiGooglecloud, SiMicrosoftazure,
+  SiPython, SiJavascript, SiTypescript, SiCplusplus, SiR, SiMysql,
+  SiDart, SiErlang, SiReact, SiNodedotjs, SiFastapi, SiFlutter, SiFirebase,
+  SiSelenium, SiLinux, SiGithubactions, SiGooglecloud,
   SiDocker, SiKubernetes, SiTensorflow, SiPytorch, SiScikitlearn,
   SiPandas, SiNumpy, SiOpencv, SiHuggingface
 } from 'react-icons/si';
-
-import { FaJava,FaBash } from 'react-icons/fa';
+import { TbBrandCSharp } from "react-icons/tb";
+import { FaJava } from 'react-icons/fa';
+import { FaAws } from "react-icons/fa6";
 import { SiApacheairflow } from 'react-icons/si';
+import { VscAzure,VscTerminalBash } from "react-icons/vsc";
 
 function Skills() {
   return (
@@ -24,10 +26,10 @@ function Skills() {
           <SiTypescript />
           <FaJava />
           <SiCplusplus />
-          {/* <SiCsharp /> */}
+          <TbBrandCSharp />
           <SiR />
           <SiMysql />
-          {/* <SiBash /> */}
+          <VscTerminalBash />
           <SiDart />
           <SiErlang />
         </div>
@@ -51,8 +53,8 @@ function Skills() {
       <div className="skill-category">
         <h3>Cloud & Big Data</h3>
         <div className="skill-icons">
-          {/* <SiAmazonaws /> */}
-          {/* <SiMicrosoftazure /> */}
+          <FaAws />
+          <VscAzure />
           <SiGooglecloud />
           <SiDocker />
           <SiKubernetes />
