@@ -52,6 +52,3 @@
   transform: scale(1.3);
   color: var(--button-bg);
 }
-.skill-category h3::before {
-  content: '🧩 ';
-}
