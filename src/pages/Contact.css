@@ -1,44 +1,85 @@
-.contact-section {
+.contact-page {
   padding: 4rem 2rem;
-  background-color: var(--bg);
-  color: var(--text-color);
+  max-width: 800px;
+  margin: 0 auto;
   text-align: center;
+  color: var(--text-color);
 }
 
-.contact-section h2 {
-  font-size: 2rem;
+.contact-page h2 {
+  font-size: 2.2rem;
   margin-bottom: 1rem;
 }
 
-.contact-text {
+.contact-subtext {
+  color: #bbb;
   font-size: 1rem;
-  max-width: 600px;
-  margin: 0 auto 2rem;
-  color: #ccc;
+  margin-bottom: 2rem;
+  max-width: 500px;
+  margin-inline: auto;
 }
 
 .contact-links {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5rem;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
 .contact-links a {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 0.5rem;
-  background-color: var(--card-bg);
-  padding: 0.75rem 1.25rem;
-  border-radius: 8px;
+  gap: 0.6rem;
+  font-size: 1rem;
+  padding: 0.75rem 1.2rem;
   text-decoration: none;
   color: var(--text-color);
+  background: transparent;
+  border: 1px solid var(--button-bg);
+  border-radius: 8px;
   transition: all 0.3s ease;
-  font-weight: 600;
 }
 
 .contact-links a:hover {
   background-color: var(--button-bg);
   color: #fff;
-  transform: translateY(-2px);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #555;
+  border-radius: 6px;
+  background-color: transparent;
+  color: var(--text-color);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--button-bg);
+  outline: none;
+}
+
+.contact-form button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: var(--button-bg);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #333;
 }
