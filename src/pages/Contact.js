@@ -1,4 +1,5 @@
-import { FaEnvelope } from "react-icons/fa";
+import { FaEnvelope,FaFileDownload,FaGithub,FaLinkedin } from "react-icons/fa";
+import './Contact.css';
 function Contact() {
   return (
     <section className="contact" id="contact">
@@ -8,7 +9,15 @@ function Contact() {
         <a href="mailto:santhoshdayakar2002@gmail.com" target="_blank" rel="noreferrer" title="Email">
           <FaEnvelope className="email-icon" />Email
         </a>
-        
+        <a href="">
+          <FaLinkedin/> LinkedIn
+        </a>
+        <a href="">
+          <FaGithub/> GitHub
+        </a>
+        <a href="src/assets/Santhosh Dayakar Resume.pdf" download title="Download Resume">
+          <FaFileDownload/>Resume
+        </a>
       </div>
     </section>
   );
