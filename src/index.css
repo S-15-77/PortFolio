@@ -38,18 +38,6 @@ body.dark .project-card {
 body {
   transition: background-color 0.3s ease, color 0.3s ease;
   font-family: 'Segoe UI', sans-serif;
-}
-body.light {
-  --bg-color: #ffffff;
-  --text-color: #222222;
-  --navbar-bg: #f0f0f0;
-  --card-bg: #f9f9f9;
-   --button-bg: #007bff;
-  --button-text: #ffffff;
-}
-
-/* Dark mode */
-body.dark {
   --bg-color: #121212;
   --text-color: #eeeeee;
   --navbar-bg: #1e1e1e;
