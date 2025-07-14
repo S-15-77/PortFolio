@@ -1,11 +1,16 @@
+import { FaEnvelope } from "react-icons/fa";
 function Contact() {
   return (
-    <div style={{ padding: "2rem" }}>
-      <h1>Contact</h1>
-      <p>Email: santhoshdayakar2002@gmail.com</p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/santhosh-dayakar" target="_blank" rel="noreferrer">Profile</a></p>
-      <p>GitHub: <a href="https://github.com/S-15-77" target="_blank" rel="noreferrer">Projects</a></p>
-    </div>
+    <section className="contact" id="contact">
+      <h2>Let's Connect</h2>
+      <p className="contact-text">I’m open to internships, co-op roles, or collaborations in AI, full-stack, or cloud-based projects.</p>
+      <div className="contact-links">
+        <a href="mailto:santhoshdayakar2002@gmail.com" target="_blank" rel="noreferrer" title="Email">
+          <FaEnvelope className="email-icon" />Email
+        </a>
+        
+      </div>
+    </section>
   );
 }
 
