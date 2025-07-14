@@ -102,12 +102,12 @@
 /* Responsive Fix */
 @media screen and (max-width: 768px) {
   .timeline::after {
-    left: 20px;
+    left: 31px;
   }
 
   .timeline-item {
     width: 100%;
-    padding-left: 40px;
+    padding-left: 70px;
     padding-right: 0;
     text-align: left;
   }
@@ -121,6 +121,23 @@
   }
 
   .timeline-item::before {
-    left: 10px;
+    left: 24px;
+  }
+
+  .timeline-content {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .timeline-content h3 {
+    font-size: 0.9rem;
+  }
+
+  .timeline-content p {
+    font-size: 0.8rem;
+  }
+
+  .timeline-content .tag {
+    font-size: 0.8rem;
   }
 }
