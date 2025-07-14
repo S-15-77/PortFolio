@@ -120,7 +120,8 @@
     left: 0;
   }
 
-  .timeline-item::before {
+  .timeline-item.left::before,
+  .timeline-item.right::before {
     left: 24px;
   }
 
