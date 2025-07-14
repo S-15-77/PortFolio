@@ -21,7 +21,8 @@
 
 .contact-links {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-direction: row;
   gap: 1rem;
   align-items: center;
   margin-bottom: 3rem;
