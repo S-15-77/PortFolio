@@ -1,5 +1,4 @@
-// src/App.js
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import Navbar from './components/Navbar';

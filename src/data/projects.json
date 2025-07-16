@@ -22,17 +22,24 @@
     "image": "ImageCaption.png"
   },
   {
-    "title": "Gym Workout Tracker",
-    "description": "Posture evaluation using OpenCV and MediaPipe, with real-time rep counting.",
-    "tech": "Python, OpenCV, MediaPipe, Random Forest",
-    "link": "https://github.com/S-15-77/GymTracker",
+    "title": "Age Detection using Convolutional Neural Networks",
+    "description": "A research based project on CNN-based models that predicts age from images",
+    "tech": "Python, OpenCV, Numoy, Torch, Pandas,scikit-learn",
+    "link": "https://github.com/S-15-77/DBbot",
     "image": "ImageCaption.png"
   },
   {
-    "title": "Gym Workout Tracker",
-    "description": "Posture evaluation using OpenCV and MediaPipe, with real-time rep counting.",
-    "tech": "Python, OpenCV, MediaPipe, Random Forest",
-    "link": "https://github.com/S-15-77/GymTracker",
+    "title": "DBBot",
+    "description": "Virtual assistant for seamless natural language to SQL query Translator.",
+    "tech": "Python, Transformets,Langchain,OpenAI API, PostgreSQL",
+    "link": "https://github.com/S-15-77/",
+    "image": "ImageCaption.png"
+  },
+  {
+    "title" : "Toxic Comment Classification",
+    "description": "Toxic Comment Classifier which is based on Multi-Class Binary Classifier to find the level of toxicity in comments using LSTM model.",
+    "tech": "Python,Tansformers, TensorFlow, Keras, NLTK, Pandas,Scikit-learn",
+    "link": "https://github.com/S-15-77/Toxic_Comment_Classification",
     "image": "ImageCaption.png"
   }
 ]
