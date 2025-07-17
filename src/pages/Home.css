@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
 .hero {
   min-height: 100vh;
   color: var(--card-color);
@@ -68,7 +71,11 @@
 }
 
 .left h1 {
-  font-size: 4rem;
+
+  font-family: "Manufacturing Consent", system-ui;
+  /* font-weight: 400; */
+  font-style: normal;
+  font-size: 8rem;
   font-weight: 800;
   margin-bottom: 1rem;
 }
@@ -88,18 +95,22 @@
 }
 
 .iam {
-  font-size: 4rem; /* Match left header */
+  font-size: 3rem; /* Match left header */
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 0.5rem;
 }
 
 .role {
+  font-family: "Bitcount", system-ui;
+  /* font-optical-sizing: auto; */
   color: #a100ff;;
-  font-weight: 800;
-  font-size: 3rem;
+  font-weight: 300;
+  font-size: 6rem;
   display: inline-block;
   margin-bottom: 0.5rem;
+  
+
 }
 
 .city {
@@ -127,5 +138,92 @@
 
   .role {
     font-size: 2rem;
+  }
+}
+
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left, .right {
+  flex: 1 1 45%;
+  min-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .left, .right {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .city {
+    text-align: center;
+  }
+}
+.floating-shapes {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.shape {
+  position: absolute;
+  fill: transparent;
+  stroke: rgba(255, 255, 255, 0.1);
+  stroke-width: 2;
+  animation: floatShape 25s linear infinite;
+}
+
+.triangle {
+  top: 10%;
+  left: 5%;
+  width: 80px;
+  height: 80px;
+  transform: rotate(20deg);
+}
+
+.circle {
+  bottom: 10%;
+  right: 10%;
+  width: 90px;
+  height: 90px;
+  animation-delay: 10s;
+}
+
+.line {
+  top: 60%;
+  left: 80%;
+  width: 150px;
+  height: 10px;
+  transform: rotate(-20deg);
+  animation-delay: 5s;
+}
+
+.zigzag {
+  top: 40%;
+  left: 30%;
+  width: 120px;
+  height: 60px;
+  animation-delay: 15s;
+}
+
+@keyframes floatShape {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(-100vh) rotate(360deg);
+    opacity: 0.2;
   }
 }

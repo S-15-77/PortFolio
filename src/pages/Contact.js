@@ -1,6 +1,6 @@
 import './Contact.css';
 import { useState } from 'react';
-import { FaGithub, FaLinkedin, FaEnvelope, FaFileDownload } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaFileDownload,FaPaperPlane } from 'react-icons/fa';
 import emailjs from 'emailjs-com';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -12,9 +12,7 @@ function Contact() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const validateEmail = (email) => {
-    return /\S+@\S+\.\S+/.test(email);
-  };
+  const validateEmail = (email) => /\S+@\S+\.\S+/.test(email);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -40,7 +38,7 @@ function Contact() {
         setForm({ name: '', email: '', message: '' });
       })
       .catch(() => {
-        toast.error("Failed to send message. Try again.");
+        toast.error("Failed to send message. Please try again.");
       });
   };
 
@@ -48,17 +46,25 @@ function Contact() {
     <section className="contact-page">
       <h2>Let’s Connect</h2>
       <p className="contact-subtext">
-        Whether you're looking to collaborate, hire, or just chat — feel free to reach out!
+        Interested in working together or want to have a chat? Feel free to reach out!
       </p>
 
       <div className="contact-links">
-        <a href="mailto:santhoshdayakar2002@gmail.com"><FaEnvelope /> Email</a>
-        <a href="https://linkedin.com/in/santhosh-dayakar" target="_blank" rel="noreferrer"><FaLinkedin /> LinkedIn</a>
-        <a href="https://github.com/S-15-77" target="_blank" rel="noreferrer"><FaGithub /> GitHub</a>
-        <a href="/Santhosh_Resume.pdf" download><FaFileDownload /> Download Resume</a>
+        <a href="mailto:santhoshdayakar2002@gmail.com" title="Email" aria-label="Email">
+          <FaEnvelope /> <span>Email</span>
+        </a>
+        <a href="https://linkedin.com/in/santhosh-dayakar" target="_blank" rel="noreferrer" title="LinkedIn" aria-label="LinkedIn">
+          <FaLinkedin /> <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/S-15-77" target="_blank" rel="noreferrer" title="GitHub" aria-label="GitHub">
+          <FaGithub /> <span>GitHub</span>
+        </a>
+        <a href="/Santhosh_Resume.pdf" download title="Download Resume" aria-label="Download Resume">
+          <FaFileDownload /> <span>Resume</span>
+        </a>
       </div>
 
-      <form className="contact-form" onSubmit={handleSubmit}>
+      <form className="contact-form" onSubmit={handleSubmit} noValidate>
         <input
           type="text"
           name="name"
@@ -83,7 +89,9 @@ function Contact() {
           value={form.message}
           onChange={handleChange}
         />
-        <button type="submit">Send Message</button>
+        <button type="submit">
+          <FaPaperPlane style={{ marginRight: '8px' }}/>
+          Send Message</button>
       </form>
 
       <ToastContainer position="top-center" autoClose={3000} />

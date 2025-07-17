@@ -7,6 +7,7 @@ import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import FloatingParticles from './components/FloatingParticle';
 
 function App() {
   useEffect(() =>{
@@ -14,11 +15,12 @@ function App() {
   })
   return (
     <>
+      <FloatingParticles />
       <Navbar />
       <main>
         <section id="home"><Home /></section>
-        <section id="projects"><Projects /></section>
         <section id="about"><About /></section>
+        <section id="projects"><Projects /></section>
         <section id="contact"><Contact /></section>
       </main>
       <Footer/>

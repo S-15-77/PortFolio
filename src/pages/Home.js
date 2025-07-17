@@ -1,9 +1,13 @@
+import FloatingParticles from '../components/FloatingParticle';
 import './Home.css'
 import { TypeAnimation } from 'react-type-animation';
 function Home() {
   return (
     <div className="hero">
-      
+      {/* <FloatingParticles /> */}
+
+
+
       <div className="hero-content">
         <div className="left">
           <h1>
