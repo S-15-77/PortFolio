@@ -49,3 +49,38 @@ body {
   --button-bg: #a100ff;
   --button-text: #ffffff;
 }
+
+/* Modern page titles */
+.page-title {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  text-align: center;
+  position: relative;
+}
+
+.page-title::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--button-bg), transparent);
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 2rem;
+  }
+}

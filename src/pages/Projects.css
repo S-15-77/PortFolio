@@ -14,10 +14,24 @@
   justify-content: center;
   margin-top: 2rem;
 }
-h1{
-  text-align: center;
-  font-size: 2.5rem;
+.projects-wrapper h1 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: -0.02em;
   margin-bottom: 3rem;
-  font-weight: bold;
-  color: var(--accent-color);
+  color: var(--text-color);
+  text-align: center;
+  position: relative;
+}
+
+.projects-wrapper h1::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--button-bg), transparent);
 }
