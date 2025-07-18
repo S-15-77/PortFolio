@@ -12,21 +12,21 @@
     "description": "Real-time transcription and speaker tracking system with interactive dashboards.",
     "tech": "React, TypeScript, FastAPI, Docker, Hugging Face",
     "link": "https://github.com/S-15-77/SpeakLens",
-    "image": "ImageCaption.png"
+    "image": "SpeakLens.jpeg"
   },
   {
     "title": "Gym Workout Tracker",
     "description": "Posture evaluation using OpenCV and MediaPipe, with real-time rep counting.",
     "tech": "Python, OpenCV, MediaPipe, Random Forest",
     "link": "https://github.com/S-15-77/GymTracker",
-    "image": "ImageCaption.png"
+    "image": "GymTracker.png"
   },
   {
     "title": "Age Detection using Convolutional Neural Networks",
     "description": "A research based project on CNN-based models that predicts age from images",
     "tech": "Python, OpenCV, Numoy, Torch, Pandas,scikit-learn",
     "link": "https://github.com/S-15-77/DBbot",
-    "image": "ImageCaption.png"
+    "image": "CnnAge.png"
   },
   {
     "title": "DBBot",
@@ -40,6 +40,13 @@
     "description": "Toxic Comment Classifier which is based on Multi-Class Binary Classifier to find the level of toxicity in comments using LSTM model.",
     "tech": "Python,Tansformers, TensorFlow, Keras, NLTK, Pandas,Scikit-learn",
     "link": "https://github.com/S-15-77/Toxic_Comment_Classification",
-    "image": "ImageCaption.png"
+    "image": "toxic.png"
+  },
+  {
+    "title" : "LaMa-inpainting",
+    "description": "Image inpainting technique which is used to remove the unwanted objects from the image.",
+    "tech": "Python, TensorFlow, Keras, OpenCV, NumPy",
+    "link": "https://github.com/S-15-77/Large-Mask-LaMa-Inpainting-",
+    "image": "face_mask.png"
   }
 ]
