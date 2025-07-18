@@ -59,8 +59,8 @@ function Contact() {
         <a href="https://github.com/S-15-77" target="_blank" rel="noreferrer" title="GitHub" aria-label="GitHub">
           <FaGithub /> <span>GitHub</span>
         </a>
-        <a href="/Santhosh_Resume.pdf" download title="Download Resume" aria-label="Download Resume">
         <a href="/Santhosh_Dayakar_Resume.pdf" download title="Download Resume" aria-label="Download Resume">
+          <FaFileDownload /> <span>Resume</span>
         </a>
       </div>
 
