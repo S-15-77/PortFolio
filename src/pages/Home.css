@@ -125,6 +125,7 @@
   .hero-content {
     flex-direction: column;
     text-align: center;
+    gap: 2rem;
   }
 
   .left, .right {
@@ -133,11 +134,99 @@
   }
 
   .left h1, .iam {
+    font-size: 3rem;
+  }
+
+  .left h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .role {
+    font-size: 3rem;
+  }
+
+  .left p {
+    font-size: 0.9rem;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .city {
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+  }
+}
+
+/* Tablet styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .left h1 {
+    font-size: 6rem;
+  }
+
+  .role {
+    font-size: 4rem;
+  }
+
+  .iam {
     font-size: 2.5rem;
+  }
+
+  .left p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Small mobile styles */
+@media (max-width: 480px) {
+  .hero {
+    padding: 2rem 1rem;
+  }
+
+  .left h1 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+  }
+
+  .iam {
+    font-size: 1.8rem;
   }
 
   .role {
     font-size: 2rem;
+  }
+
+  .left p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .city {
+    font-size: 0.75rem;
+  }
+
+  .hero-content {
+    gap: 1.5rem;
+  }
+}
+
+/* Large desktop styles */
+@media (min-width: 1400px) {
+  .left h1 {
+    font-size: 10rem;
+  }
+
+  .role {
+    font-size: 8rem;
+  }
+
+  .iam {
+    font-size: 4rem;
+  }
+
+  .left p {
+    font-size: 1.1rem;
+    max-width: 600px;
   }
 }
 
