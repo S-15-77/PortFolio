@@ -12,7 +12,8 @@ function Home() {
         <div className="left">
           <h1>
             {/* <span>I AM</span> <br /> */}
-            <span>SANTHOSH DAYAKAR</span>
+            <span>SANTHOSH</span><br />
+            <span>DAYAKAR</span>
           </h1>
           <p>I’m a Co-Op student at Concordia University pursuing a Master’s in Applied Computer Science.
 Passionate about building scalable, data-driven solutions that solve real-world problems.
