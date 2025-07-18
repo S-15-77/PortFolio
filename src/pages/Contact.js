@@ -60,7 +60,7 @@ function Contact() {
           <FaGithub /> <span>GitHub</span>
         </a>
         <a href="/Santhosh_Resume.pdf" download title="Download Resume" aria-label="Download Resume">
-          <FaFileDownload /> <span>Resume</span>
+        <a href="/Santhosh_Dayakar_Resume.pdf" download title="Download Resume" aria-label="Download Resume">
         </a>
       </div>
 
