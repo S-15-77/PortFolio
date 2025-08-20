@@ -6,10 +6,11 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  background-color: var(--navbar-bg);
+  background: rgba(30, 30, 30, 0.15); /* subtle overlay, not solid */
   color: var(--text-color);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  box-shadow: none;
+  backdrop-filter: blur(2px);
+  transition: background 0.3s, color 0.3s;
 }
 
 .navbar-links {
