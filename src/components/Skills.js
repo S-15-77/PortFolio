@@ -34,9 +34,12 @@ const skillData = [
   { title: "Linux", icon: <SiLinux />, category: "Frameworks" },
   { title: "GitHub Actions", icon: <SiGithubactions />, category: "Frameworks" },
 
+
   { title: "AWS", icon: <FaAws />, category: "Cloud" },
   { title: "Azure", icon: <VscAzure />, category: "Cloud" },
   { title: "Google Cloud", icon: <SiGooglecloud />, category: "Cloud" },
+  { title: "IBM watsonx", icon: <span role="img" aria-label="watsonx">☁️</span>, category: "Cloud" },
+  { title: "IBM Watson", icon: <span role="img" aria-label="watson">☁️</span>, category: "Cloud" },
   { title: "Docker", icon: <SiDocker />, category: "Cloud" },
   { title: "Kubernetes", icon: <SiKubernetes />, category: "Cloud" },
   { title: "Apache Airflow", icon: <SiApacheairflow />, category: "Cloud" },
