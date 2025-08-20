@@ -48,5 +48,20 @@
     "tech": "Python, TensorFlow, Keras, OpenCV, NumPy",
     "link": "https://github.com/S-15-77/Large-Mask-LaMa-Inpainting-",
     "image": "face_mask.png"
-  }
+  },
+
+  {
+    "title" : "Expense Tracker",
+    "description": "A web app to track and manage personal expenses.",
+    "tech": "ReactJS, Node.js, Express, Firebase, Firestore",
+    "link": "https://github.com/S-15-77/Expense_tracker",
+    "image": "expense_tracker.jpeg"
+  },
+  {
+  "title": "Stride Vocal",
+  "description": "An agentic AI assistant designed to make technology more accessible for visually impaired individuals by enabling multi-step, context-driven task execution through speech.",
+  "tech": "Whisper (Azure AI), IBM watsonx Granite LLM, Watson Orchestrate, AWS DocumentDB, AWS Lambda, Gmail API, Google Places & Routes API, Custom Python APIs, TTS",
+  "link": "https://lnkd.in/gyMpmFkP",
+  "image": "strideVoice.png"
+}
 ]
