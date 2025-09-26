@@ -10,8 +10,8 @@ function About() {
     <div className="about-page">
       <Timeline />
       <Skills/>
-      <Certificates />
-      <Achievements />
+      {/* <Certificates /> */}
+      {/* <Achievements /> */}
     </div>
   );
 }
